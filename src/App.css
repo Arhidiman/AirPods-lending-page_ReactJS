@@ -36,3 +36,211 @@
     transform: rotate(360deg);
   }
 }
+
+body, header, section, h1, h2, h3, nav, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+.section-title {
+  font-family: 'ubuntu';
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+.section-description {
+  font-family: 'open sans';
+	font-size: 20px;
+	line-height: 1.7em;
+}
+
+.light-section {
+  color:black
+}
+
+.dark-section {
+  color: #fff;
+}
+
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+  .section-description {
+    font-size: 16px;
+  }
+
+  .section-title {
+    font-size: 45px;
+  }
+ }
+
+ /* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  .section-title {
+    font-size: 40px;
+  }
+  
+  .seventh-section-subtitle {
+    font-size: 30px;
+  }
+    
+ }
+
+ /* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  
+  .container > .header-bar,  .container > .footer-bar{
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .footer-container > .footer-bar {
+    column-gap: 10px;
+  }
+
+  #header > .container > .header-bar > nav > .navigation, #footer > .container > .footer-bar > nav > .navigation {
+   grid-gap: 15px;
+  }
+ 
+  #header > .container > .header-text > .intro-title {
+    font-size: 35px;
+    white-space: pre-line;
+  }
+
+  #header > .container > .header-text > .intro-text {
+    font-size: 14px;
+    white-space: pre-line;
+  }
+
+  .container > div > .section-title {
+    font-size: 30px;
+  }
+  
+  .seventh-section-subtitle {
+    font-size: 23px;
+  }
+
+  body> #root > div > section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  body> #root > div > section > .container {
+    grid-template-columns: 1fr;  
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+  }
+  body> #root > div > .SecondSection {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  body> #root > div > .SeventhSection > .container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    grid-template-columns: 1fr;  
+    grid-template-rows: 1fr 10fr 10fr 10fr;
+  }
+
+
+
+  body> #root > div > .SecondSection > .container > .section-image {
+    justify-self: start;
+    width: 400px;
+    height: 400px;
+  }
+
+  section > .container > .section-text {
+    order: 0;
+    justify-self: center;
+    align-self: center;
+  }
+
+  section > .container > .section-image {
+    order: 1;
+    justify-self: center;
+  }
+  .header-bar > .logo-apple, .header-bar > .logo-bag, .footer-bar > .logo-apple{
+
+  }
+  
+  .container > .image-triangles{
+    width: 350px;
+    height: 350px;
+  }
+
+  .container > .pods-case{
+    width: 310px;
+    height: 310px;
+  }
+
+  .container > .pods-in-case{
+    width: 235px;
+    height: 275px;
+  }
+
+  .container > .pods-without-case{
+
+  }
+
+  .container > .two-cases {
+    width: 310px;
+    height: 155px;
+  }
+  .container > .section-text > .triangles {
+
+  }
+
+  .header-bar > nav, .header-bar > .logo-bag, .footer-bar > .logo-instagram, .footer-bar > .logo-vk,  .footer-bar > .logo-telegram {
+      width: 20px;
+      height: 20px;
+      display: none;
+  }
+
+  body> #root > div > .header {
+    height: 800px;
+  }
+
+  .header-bar > .menu-lines {
+    display: grid;
+  }
+
+  .header > .header-container {
+    grid-template-rows: 80px 250px 350px;
+    align-items: center;
+  }
+
+  .header-container > .image-triangles, .header-container > .header-text {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    align-self: start;
+  }
+
+  .header-container > .header-text {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .header-container > .image-triangles {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+}
+
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+
+
+
+
+
