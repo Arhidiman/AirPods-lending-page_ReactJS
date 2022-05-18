@@ -1,0 +1,46 @@
+
+#FourthSection {
+    display: grid;
+    justify-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F4F4F4;
+}
+
+.pods-without-case{
+    background-size:100% 100%;
+    width: 400px;
+    height: 200px;
+    justify-self: end;
+    justify-self: center;
+}
+
+.fourth-section-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    /* justify-items: end; */
+}
+
+.fourth-section-text {
+    justify-self: start;
+    align-self: start;
+}
+
+/* 
+.fourth-section-title {
+    width:400px;
+	font-family: 'ubuntu';
+	font-weight: bold;
+	font-size: 37px;
+	margin-bottom: 30px;
+}
+
+.fourth-section-description {
+    width:600px;
+	font-family: 'open sans';
+	font-size: 16px;
+	line-height: 1.7em;
+	margin-bottom: 30px;
+} */

@@ -1,0 +1,78 @@
+
+#EighthSection {
+    display: grid;
+    justify-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F4F4F4;
+}
+
+.eighth-section-container {
+    width: 90%;
+    display: grid;
+    row-gap: 20px;
+    justify-items: center;
+}
+
+.eighth-section-text {
+    justify-self: start;
+    align-self: start;
+}
+
+
+.eighth-section-title {
+    text-align: center;
+	font-family: 'ubuntu';
+	font-weight: bold;
+	font-size: 57px;
+}
+.eighth-section-description {
+    /* width:600px; */
+	font-family: 'open sans';
+	font-size: 16px;
+	line-height: 1.7em;
+	margin-bottom: 30px;
+}
+
+.form-btn {
+    display: block;
+	width: 220px;
+    padding: 24px 0px;
+    background-color: #fc2020;
+	border: none;
+	text-decoration: none;
+	color: #fff;
+	
+
+	text-align: center;
+	
+	box-sizing: border-box;
+	transition: all 0.5s ease;
+}
+
+.form-btn:hover {
+    cursor: pointer;
+	background-color: #ff0f0f;
+    box-shadow: 0 0 10px 10px #ff3434;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    grid-gap: 10px;
+	margin:0 auto;
+}
+
+.input {
+	width: 340px;
+    height: 35px;
+    padding-top: 20px;
+    outline: none;
+    border: none;
+	border-bottom:solid #bbbbbb 2px;
+	border-radius: 2px;
+    background-color: #F4F4F4;
+	
+	
+}

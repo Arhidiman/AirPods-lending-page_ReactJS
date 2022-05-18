@@ -1,0 +1,152 @@
+body, header, section, h1, h2, h3, nav, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#header {
+    display: grid;
+    justify-items: center;
+    height: 600px;
+    background: url(../images/background-main.jpg) top center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    color: #fff;
+}
+
+.header-container {
+    width: 90%;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    row-gap: 20px;
+    /* justify-items: end; */
+}
+
+.header-bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    column-gap: 30px;
+    /* justify-items: end; */
+    align-items: center;
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 35px;
+    
+}
+
+.logo-apple {
+    background-size:100% 100%;
+    width: 30px;
+    height: 30px;
+    justify-self: end;
+}
+
+.logo-bag {
+    background-size:100% 100%;
+    width: 30px;
+    height: 30px;
+    justify-self: end;
+}
+
+.menu-lines {
+    display: none;
+    width: 30px;
+    height: 30px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: end;
+    justify-self: end;
+}
+
+.line {
+    border-color: #fff;
+    border-bottom: solid 3px;
+}
+
+.line1 {
+    width: 10px;
+    
+}
+
+.line2 {
+    width: 20px;
+}
+
+.line3 {
+    width: 30px;
+}
+
+.header-text {
+    grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+    justify-self: start;
+    align-self: center;
+}
+
+.image-triangles {
+    background-size:100% 100%;
+    width: 450px;
+    height: 450px;
+    grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+    justify-self: center;
+}
+
+.intro-title {
+	font-family: 'ubuntu';
+	font-weight: bold;
+	font-size: 57px;
+	margin-bottom: 30px;
+}
+.intro-text {
+	font-family: 'open sans';
+	font-size: 21px;
+	line-height: 1.7em;
+	margin-bottom: 30px;
+}
+
+
+.intro-btn {
+	font-family: 'montserrat';
+	font-weight: 900;
+	text-decoration: none;
+	color: #fff;
+	background-color: #fc2020;
+	display: block;
+	width: 220px;
+	text-align: center;
+	padding: 24px 0px;
+	box-sizing: border-box;
+	transition: all 0.5s ease;
+}
+
+.intro-btn:hover {
+    cursor: pointer;
+	background-color: #ff0f0f;
+    box-shadow: 0 0 10px 10px #ff3434;
+}

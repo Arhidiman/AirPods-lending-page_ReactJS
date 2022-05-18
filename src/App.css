@@ -42,6 +42,10 @@ body, header, section, h1, h2, h3, nav, ul, li, p {
   padding: 0;
 }
 
+body {
+  /* overflow: hidden;
+  height: 100%; */
+}
 .section-title {
   font-family: 'ubuntu';
 	font-weight: bold;
@@ -90,10 +94,6 @@ body, header, section, h1, h2, h3, nav, ul, li, p {
  /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   
-  .container > .header-bar,  .container > .footer-bar{
-    font-size: 13px;
-    align-self: center;
-  }
 
   .footer-container > .footer-bar {
     column-gap: 10px;
@@ -121,6 +121,11 @@ body, header, section, h1, h2, h3, nav, ul, li, p {
     font-size: 23px;
   }
 
+  body> #root > div > .EighthSection > .container > h1 {
+    font-size: 35px;
+   }
+ 
+
   body> #root > div > section {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -136,20 +141,51 @@ body, header, section, h1, h2, h3, nav, ul, li, p {
     padding-bottom: 0px;
   }
 
-  body> #root > div > .SeventhSection > .container {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    grid-template-columns: 1fr;  
-    grid-template-rows: 1fr 10fr 10fr 10fr;
-  }
-
-
-
   body> #root > div > .SecondSection > .container > .section-image {
     justify-self: start;
     width: 400px;
     height: 400px;
   }
+
+  body> #root > div > .SeventhSection > .container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    grid-template-columns: 1fr;  
+    grid-template-rows: 40px 450px 300px 600px;
+  }
+
+  body> #root > div > .SeventhSection > .container > .section-title {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+
+  body> #root > div > .SeventhSection > .container > .section-text {
+   width: 80%;
+  }
+
+  body> #root > div > .Footer > .container > .footer-bar {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  body> #root > div > .Footer > .container > .footer-bar > nav > .footer-navigation{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: left;
+  }
+
+  /* body> #root > div > .Footer > .container > .footer-bar .navigation {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  } */
+
+  body> #root > div > .Footer > .container > .footer-bar .logo-apple {
+    justify-self: center;
+  }
+ 
 
   section > .container > .section-text {
     order: 0;
@@ -160,9 +196,6 @@ body, header, section, h1, h2, h3, nav, ul, li, p {
   section > .container > .section-image {
     order: 1;
     justify-self: center;
-  }
-  .header-bar > .logo-apple, .header-bar > .logo-bag, .footer-bar > .logo-apple{
-
   }
   
   .container > .image-triangles{
@@ -180,16 +213,9 @@ body, header, section, h1, h2, h3, nav, ul, li, p {
     height: 275px;
   }
 
-  .container > .pods-without-case{
-
-  }
-
   .container > .two-cases {
     width: 310px;
     height: 155px;
-  }
-  .container > .section-text > .triangles {
-
   }
 
   .header-bar > nav, .header-bar > .logo-bag, .footer-bar > .logo-instagram, .footer-bar > .logo-vk,  .footer-bar > .logo-telegram {

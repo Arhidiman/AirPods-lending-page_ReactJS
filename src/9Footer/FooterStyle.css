@@ -1,0 +1,86 @@
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+#Footer {
+    display: grid;
+    justify-items: center;
+    /* height: 600px; */
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url(../images/background.jpg) top center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-container {
+    width: 90%;
+    display: grid;
+    row-gap: 20px;
+    justify-items: stretch;
+ 
+   
+}
+
+.footer-bar {
+    display: grid;
+    grid-template-columns: 10fr 20fr 15fr 5fr 5fr 5fr;
+    column-gap: 30px;
+    /* justify-items: end; */
+    align-items: center;
+
+}
+
+
+.footer-navigation {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 35px;
+    justify-items: center;
+    align-items: center;
+}
+
+.arrow-up {
+
+   /* height: 50px; */
+   font-size: 80px;
+   justify-self: center;
+   align-self: center;
+}
+
+
+.logo-apple {
+    background-size:100% 100%;
+    width: 30px;
+    height: 30px;
+    justify-self: end;
+}
+
+.logo-instagram {
+    background-size:100% 100%;
+    width: 30px;
+    height: 30px;
+    justify-self: center;
+}
+
+.logo-vk {
+    background-size:100% 100%;
+    width: 30px;
+    height: 30px;
+    justify-self: center;
+}
+
+.logo-telegram {
+    background-size:100% 100%;
+    width: 30px;
+    height: 30px;
+    justify-self: center; 
+}
+
+.intro-btn:hover {
+    cursor: pointer;
+	background-color: #ff0f0f;
+    box-shadow: 0 0 10px 10px #ff3434;
+}
