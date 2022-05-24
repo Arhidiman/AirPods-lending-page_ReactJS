@@ -1,0 +1,226 @@
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    br {
+      display: none;
+    }
+  
+    .intro-text > br{
+      display: inline;
+    }
+    
+    .section-text > .section-title {
+      font-size: 45px;
+    }
+  
+    .section-text > .section-description {
+      font-size: 18px;
+    }
+   }
+  
+   /* // Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) { 
+    .section-text > .section-title {
+      font-size: 40px;
+    }
+    
+    .seventh-section-subtitle {
+      font-size: 30px;
+    }
+   }
+  
+   /* // Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {
+    #app > .scrolled > section {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+    section > .container {
+      grid-template-columns: 1fr;  
+      grid-template-rows: auto auto;
+      justify-items: center;
+    }
+  
+    section > .container > .section-text {
+      order: 0;
+      justify-self: center;
+      align-self: center;
+    }
+  
+    section > .container > .section-image {
+      order: 1;
+      justify-self: center;
+    }
+  
+    .container > .image-triangles{
+      width: 350px;
+      height: 350px;
+    }
+  
+    .container > .pods-in-case{
+      width: 235px;
+      height: 275px;
+    }
+  
+    .container > .two-cases {
+      width: 310px;
+      height: 155px;
+    }
+  
+    .container > .section-text > .section-title {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+  
+    #app .scrolled > #header {
+      height: 100vh;
+    }
+  
+    .header > .header-container {
+      grid-template-rows: repeat(3, auto);
+      align-items: center;
+    }
+  
+    .header-bar > nav, .header-bar > .logo-bag, .footer-bar > .logo-instagram, .footer-bar > .logo-vk,  .footer-bar > .logo-telegram {
+      display: none;
+    }
+  
+    .header-bar > .menu-lines {
+      display: grid;
+    }
+  
+    .header-container > .header-text, .header-container > .image-triangles {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      justify-self: center;
+      align-self: start;
+    }
+  
+    .header-container > .header-text {
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+  
+    .header-container > .image-triangles {
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+  
+    .header-text > .intro-title {
+      font-size: 35px;
+      white-space: pre-line;
+    }
+  
+    .header-text > .intro-text {
+      font-size: 14px;
+      white-space: pre-line;
+    }
+  
+    body> #root > div > .scrolled > .SecondSection {
+      padding-top: 30px;
+      padding-bottom: 0px;
+    }
+    
+    #SecondSection > .second-section-container > .section-image {
+      justify-self: start;
+      width: 310px;
+      height: 310px;
+    }
+  
+    .SeventhSection > .container {
+      width: 80%;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      grid-template-columns: 1fr;  
+      grid-template-rows: auto auto auto auto;
+      row-gap: 15px;
+    }
+  
+    .seventh-section-container > .seventh-section-title {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      margin-bottom: 0px;
+      font-size: 30px;
+    }
+  
+    .seventh-section-text > .seventh-section-subtitle {
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+  
+    .eighth-section-container > .eighth-section-title{
+      font-size: 35px;
+     }
+  
+    .footer-container > .footer-bar {
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      column-gap: 10px;
+    }
+    
+    .footer-bar .logo-apple {
+      justify-self: center;
+    }
+   
+    nav > .footer-navigation{
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      justify-items: left;
+    }
+  }
+  
+  /* // Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) { 
+    .section-text > .section-description{
+      font-size: 16px;
+    }
+   }
+  
+  /* // X-Small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    #app > .scrolled > #EighthSection {
+      text-align: center;
+    }
+  
+    .container > .second-section-text {
+      width: 90%;
+    }
+  
+    .side-menu > .side-navigation > li > a {
+      font-size: 16px;
+    }
+  
+    .header-container > .image-triangles {
+      width: 300px;
+      height: 300px;
+    }
+  
+    .fourth-section-container > .pods-without-case {
+      width: 300px;
+      height: 150px
+    }
+  
+    .sixth-section-container > .two-cases {
+      width: 250px;
+      height: 120px
+    }
+    .seventh-section-text > .triangles {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .eighth-section-container > .eighth-section-title {
+      font-size: 30px;
+    }
+  
+    .EighthSection > .eighth-section-container > p {
+      font-size: 14px;
+    }
+  
+    .form > input {
+      width: 200px;
+    }
+    
+   }
+  
