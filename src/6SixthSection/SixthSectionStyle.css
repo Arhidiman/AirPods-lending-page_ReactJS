@@ -19,7 +19,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
-    /* justify-items: end; */
 }
 
 .sixth-section-text {
@@ -27,18 +26,19 @@
     align-self: start;
 }
 
+.sixth-section-description {
+    font-size: 20px;
+}
 
-/* .sixth-section-title {
-    width:400px;
+.sixth-section-title {
 	font-family: 'ubuntu';
 	font-weight: bold;
-	font-size: 37px;
+	font-size: 50px;
 	margin-bottom: 30px;
 }
 .sixth-section-description {
-    width:600px;
 	font-family: 'open sans';
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.7em;
 	margin-bottom: 30px;
-} */
+}

@@ -9,40 +9,36 @@
     width: 100%;
     color: #fff;
 }
-.second-section-container {
+
+.third-section-container {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
-    /* justify-items: end; */
- 
-   
 }
 
 .third-section-text {
-    /* grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3; */
     justify-self: center;
     align-self: center;
 }
 
+.third-section-description {
+    font-size: 20px;
+}
 
-/* .third-section-title {
+.third-section-title {
 	font-family: 'ubuntu';
 	font-weight: bold;
-	font-size: 37px;
+	font-size: 50px;
 	margin-bottom: 30px;
 }
+
 .third-section-description {
-    width:500px;
 	font-family: 'open sans';
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.7em;
 	margin-bottom: 30px;
-} */
-
+}
 
 .pods-in-case {
     background-size:100% 100%;

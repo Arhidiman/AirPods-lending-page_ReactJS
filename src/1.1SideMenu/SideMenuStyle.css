@@ -9,11 +9,16 @@
     opacity: 50%;
 }
 
+.fade {
+    opacity: 0%;
+    transition: all 0.6s ease;
+}
+
 .side-menu {
     z-index: 2;
     display: none;
     position: fixed;
-    width: 30%;
+    width: 40%;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -23,7 +28,6 @@
     grid-template-rows: 1fr 6fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     justify-items: end;
-    /* transition: all 2s ease; */
 }
 
 .side-navigation {
@@ -32,6 +36,7 @@
     grid-template-rows: repeat(5, 1fr);
     justify-items: end;
     grid-gap: 15px;
+    font-family: 'open sans';
     color: gray; 
 }
 
@@ -39,12 +44,6 @@
     font-size: 18px;
     color: rgb(0, 0, 0);  
 }
-
-
-/* .side-menu-active {
-    transform: translateX(-50%);
-
-} */
 
 .close-button{
     background-color: #fff;
@@ -56,8 +55,6 @@
 .side-menu-element {
     margin-right: 30px;
 }
-
-
 
 .side-menu-logo {
     background-size:100% 100%;

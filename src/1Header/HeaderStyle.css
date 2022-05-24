@@ -20,10 +20,11 @@ a {
 #header {
     display: grid;
     justify-items: center;
-    height: 600px;
+    height: 100vh;
+    width: 100%;
     background: url(../images/background-main.jpg) top center no-repeat;
     background-size: 100% 100%;
-    width: 100%;
+    
     color: #fff;
 }
 
@@ -103,7 +104,7 @@ a {
 	grid-row-start: 2;
 	grid-row-end: 3;
     justify-self: start;
-    align-self: center;
+    align-self: start;
 }
 
 .image-triangles {
@@ -132,8 +133,6 @@ a {
 
 
 .intro-btn {
-	font-family: 'montserrat';
-	font-weight: 900;
 	text-decoration: none;
 	color: #fff;
 	background-color: #fc2020;
@@ -143,6 +142,7 @@ a {
 	padding: 24px 0px;
 	box-sizing: border-box;
 	transition: all 0.5s ease;
+    font-weight: bold;
 }
 
 .intro-btn:hover {

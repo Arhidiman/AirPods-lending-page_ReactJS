@@ -10,7 +10,7 @@ function EighthSection() {
         <h1 className='eighth-section-title'>
           Остались вопросы?
         </h1>
-        <p>
+        <p className='eighth-section-description'>
           Заполните заявку и мы обязательно вам ответим.
         </p>
         <form action="#" class="form">

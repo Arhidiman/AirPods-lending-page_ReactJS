@@ -10,7 +10,7 @@
     background-size:100% 100%;
     width: 400px;
     height: 400px;
-    align-self: start;
+    align-self: end;
     margin-left:-13%;
 }
 
@@ -19,25 +19,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
-    /* justify-items: end; */
+  
 }
 
 .second-section-text {
     align-self: start;
 }
 
+.second-section-description {
+    font-size: 20px;
+}
 
-/* .second-section-title {
-    
+.second-section-title {  
 	font-family: 'ubuntu';
 	font-weight: bold;
-	font-size: 37px;
+	font-size: 50px;
 	margin-bottom: 30px;
 }
 .second-section-description {
-   
 	font-family: 'open sans';
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.7em;
 	margin-bottom: 30px;
-} */
+}

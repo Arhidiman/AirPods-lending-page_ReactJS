@@ -19,7 +19,6 @@
     align-self: start;
 }
 
-
 .eighth-section-title {
     text-align: center;
 	font-family: 'ubuntu';
@@ -27,9 +26,8 @@
 	font-size: 57px;
 }
 .eighth-section-description {
-    /* width:600px; */
 	font-family: 'open sans';
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.7em;
 	margin-bottom: 30px;
 }
@@ -41,11 +39,9 @@
     background-color: #fc2020;
 	border: none;
 	text-decoration: none;
+    font-weight: bold;
 	color: #fff;
-	
-
 	text-align: center;
-	
 	box-sizing: border-box;
 	transition: all 0.5s ease;
 }
@@ -73,6 +69,4 @@
 	border-bottom:solid #bbbbbb 2px;
 	border-radius: 2px;
     background-color: #F4F4F4;
-	
-	
 }

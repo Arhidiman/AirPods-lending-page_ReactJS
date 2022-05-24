@@ -9,14 +9,12 @@
     width: 100%;
     color: #fff;
 }
+
 .seventh-section-container {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    /* justify-items: center; */
- 
-   
+    grid-template-columns: repeat(3, auto);
+    column-gap: 20px;
 }
 
 .seventh-section-text {
@@ -25,27 +23,29 @@
 }
 
 .seventh-section-title {
-	/* font-size: 57px; */
+	font-size: 50px;
     grid-column-start: 1;
     grid-column-end: 4;
     justify-self: center;
 }
 .seventh-section-subtitle {
-	font-weight: bold;
+	font-family: 'ubuntu';
+    font-weight: bold;
 	font-size: 27px;
 	margin-bottom: 30px;
 }
-/* .seventh-section-description {
-    width:500px;
+
+.seventh-section-description {
 	font-family: 'open sans';
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.7em;
 	margin-bottom: 30px;
-} */
+}
 
 .seventh-section-description li {
     list-style-type: disc;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .triangles {

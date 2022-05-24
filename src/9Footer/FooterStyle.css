@@ -1,8 +1,4 @@
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
 #Footer {
     display: grid;
     justify-items: center;
@@ -40,6 +36,12 @@ a {
     grid-gap: 35px;
     justify-items: center;
     align-items: center;
+}
+
+.footer-navigation > li > a  {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .arrow-up {

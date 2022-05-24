@@ -9,42 +9,39 @@
     width: 100%;
     color: #fff;
 }
+
 .fifth-section-container {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
-    /* justify-items: end; */
- 
-   
 }
 
 .fifth-section-text {
-    /* grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3; */
     justify-self: center;
     align-self: center;
 }
 
-/* 
+.fifth-section-description {
+    font-size: 20px;
+}
+
 .fifth-section-title {
 	font-family: 'ubuntu';
 	font-weight: bold;
-	font-size: 37px;
+	font-size: 50px;
 	margin-bottom: 30px;
 }
 .fifth-section-description {
-    width:500px;
 	font-family: 'open sans';
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.7em;
 	margin-bottom: 30px;
-} */
+}
 
 .fifth-section-description li {
     list-style-type: disc;
+    margin-left: 20px;
 }
 
 .pods {
