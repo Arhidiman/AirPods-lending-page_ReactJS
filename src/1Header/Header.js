@@ -23,22 +23,7 @@ function Header(props) {
 
     
     useEffect(()=>{
-
         props.setSideMenuButton(menuLines.current)
-
-        // document.documentElement.onclick = ()=>{
-            // if(isMenuAnimatingLeft.current == true && menuCurrentTransition.current !== 0) {
-            //     isMenuAnimatingLeft.current = !isMenuAnimatingLeft.current ;
-            //     isMenuAnimatingRight.current = !isMenuAnimatingRight.current;
-            // }
-        // }
-        // if(props.closeButton !== undefined) {
-        //     props.closeButton.onclick = closeMenu;
-        // }
-
-        // if((props.sideMenuBackground !== undefined) && ( isMenuActive.current = true)) {
-        //     props.sideMenuBackground.onclick = closeMenu;
-        // }
     })
 
     function getPixelsNumber(pixels) {
@@ -126,11 +111,9 @@ function Header(props) {
                             и иновационный беспроводной дизайн - <br></br> 
                             всё это AirPods
                         </p>
-                        <Animation delay = {50} transitionValue = {100}>
-                            <a class="intro-btn" >
-                                Заказать сейчас
-                            </a>
-                        </Animation>
+                        <a class="intro-btn" >
+                            Заказать сейчас
+                        </a>
                     </div>
                 </div>
         </header>
