@@ -5,12 +5,15 @@ import FadeAnimation from '../10.5FadeAnimation/FadeAnimation';
 
 function ThirdSection() {
   return (
+    
     <section id="ThirdSection" class="ThirdSection">
+      <FadeAnimation delay = {20}>
         <div className="container second-section-container advantages-container advantages-container-dark">
           <div className='third-section-text section-text'>
               <h1 class="section-title third-section-title">
                   Положите - зарядите.
               </h1>
+              
               <p class="section-description third-section-description">
                 Заряжать AirPods очень просто: положите беспроводной <br></br>
                 зарядный футляр AirPods на устройство для беспроводной <br></br>
@@ -21,9 +24,11 @@ function ThirdSection() {
                 разъём lightning.
 
               </p>
+
           </div>
           <div class="pods-in-case section-image" alt="" style = {{backgroundImage: `url(${podsInCase})`}}> </div>
         </div>
+        </FadeAnimation>
     </section>
   );
 }

@@ -40,6 +40,16 @@
       grid-template-rows: auto auto;
       justify-items: center;
     }
+
+    .ThirdSection > .animated {
+      width: 90%;
+    }
+
+    .animated > .container {
+      grid-template-columns: 1fr;  
+      grid-template-rows: auto auto;
+      justify-items: center;
+    }
   
     section > .container > .section-text {
       order: 0;
@@ -47,9 +57,13 @@
       align-self: center;
     }
   
-    section > .container > .section-image {
+    .container > .section-image {
       order: 1;
       justify-self: center;
+    }
+    .container > .pods-case {
+      order: 1;
+      justify-self: start;
     }
   
     .container > .image-triangles{

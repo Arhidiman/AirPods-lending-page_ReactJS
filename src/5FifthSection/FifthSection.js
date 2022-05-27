@@ -1,11 +1,13 @@
 import react, { useEffect, useRef, useState}  from 'react'
 import './FifthSectionStyle.css';
 import pods from '../images/pods.png'
+import FadeAnimation from '../10.5FadeAnimation/FadeAnimation';
 
 
 function FifthSection() {
   return (
     <section id="FifthSection" class="FifthSection">
+      <FadeAnimation delay={20}>
       <div className="container fifth-section-container advantages-container advantages-container-dark">    
         <div className='fifth-section-text section-text'>
             <h1 class="section-title fifth-section-title">
@@ -19,6 +21,7 @@ function FifthSection() {
         </div>
         <div class="pods section-image" alt="" style = {{backgroundImage: `url(${pods})`}}> </div>     
       </div>
+      </FadeAnimation>
     </section>
   );
 }

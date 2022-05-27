@@ -15,7 +15,9 @@ section .container {
 	margin-bottom: 30px;
 }
 
-
+.animated {
+  width: 90%;
+}
 
 
 

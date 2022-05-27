@@ -1,11 +1,13 @@
 import react, { useEffect, useRef, useState}  from 'react'
 import './FourthSectionStyle.css';
 import podsWithoutCase from '../images/pods-without-case.png'
+import FadeAnimation from '../10.5FadeAnimation/FadeAnimation';
 
 
 function FourthSection() {
   return (
     <section id="FourthSection" class="FourthSection">
+      <FadeAnimation delay={20}>
       <div className="container fourth-section-container advantages-container advantages-container-light">
         <div class="pods-without-case section-image" alt="" style = {{backgroundImage: `url(${podsWithoutCase})`}}> </div>
         <div className='fourth-section-text section-text'>
@@ -22,6 +24,7 @@ function FourthSection() {
             </p>
         </div>
       </div>
+      </FadeAnimation>
     </section>
   );
 }

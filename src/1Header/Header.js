@@ -101,20 +101,27 @@ function Header(props) {
                     </div>
                     <div className='image-triangles' style = {{backgroundImage: `url(${triangles})`}}>
                     </div>
+                  
                     <div class="header-text">
+                        {/* <FadeAnimation delay = {20}> */}
                         <h1 class="intro-title ">
                             AirPods 
                             2 поколения
                         </h1>
+                        {/* </FadeAnimation> */}
                         <p class="intro-text">
                             Лёгкое подключение, качественный звук<br></br>
                             и иновационный беспроводной дизайн - <br></br> 
                             всё это AirPods
                         </p>
-                        <a class="intro-btn" >
+                         {/* <FadeAnimation delay = {20}> */}
+                        <a class="intro-btn" id = 'intro-btn' position = {0}>
                             Заказать сейчас
                         </a>
+                         {/* </FadeAnimation> */}
+                        
                     </div>
+                   
                 </div>
         </header>
     );
