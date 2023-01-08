@@ -23,6 +23,7 @@ function Header(props) {
 
     
     useEffect(()=>{
+        console.log(logo)
         props.setSideMenuButton(menuLines.current)
     })
 
@@ -126,5 +127,4 @@ function Header(props) {
         </header>
     );
 }
-
-export default Header;
+export default Header
